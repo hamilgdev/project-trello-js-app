@@ -1,0 +1,20 @@
+{
+  "tasks": [
+      {
+          "id": 1,
+          "title": "Título 1",
+          "person": "User1",
+          "state": "to-do",
+          "deadline": 1615524959,
+          "created": 1615352159
+      },
+      {
+          "id": 2,
+          "title": "Título 2",
+          "person": "User2",
+          "state": "to-do",
+          "deadline": 1615524959,
+          "created": 1615352159
+      }
+  ]
+}
