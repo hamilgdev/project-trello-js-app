@@ -1,11 +1,11 @@
 API_URL =
-  'https://my-json-server.typicode.com/miltoncodeyt/project-trello-js-app/tasks';
+  'https://my-json-server.typicode.com/miltoncodeyt/project-trello-js-app';
 
 const ApiClient = axios.create({
   baseURL: API_URL
 });
 
-ApiClient.get()
+ApiClient.get(`${API_URL}/tasks`)
   .then((res) => showAllTasks(res.data))
   .catch((err) => console.error(err));
 
